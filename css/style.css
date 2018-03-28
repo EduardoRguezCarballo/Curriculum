@@ -10,6 +10,20 @@ html{
 }
 
 /* INICIO */
+.nav{
+	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(17,17,17,0.17) 83%, rgba(17,17,17,0) 100%);
+	position: fixed;
+	width: 100%;
+	display: flex;
+}
+
+.nav > a{
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+	color: rgba(255,255,255,0.7);
+}
+
 .inicio{
 	text-align: center;
 }
@@ -35,10 +49,5 @@ html{
 }
 
 .box > h1{
-	font-size: 40px;
-	text-align: center;
-	font-family: 'Yantramanav', sans-serif;
-	font-size: 4em;
-	font-weight:inherit;
-	color: #F1EFE9;
+	
 }
