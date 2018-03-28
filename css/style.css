@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+
+html{
+	background-color: rgba(0,0,0,1);
+}
+
+/* INICIO */
+.inicio{
+	text-align: center;
+}
+
+.box{
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#box1{
+	background-image: url(../media/fondo1.jpg);
+}
+
+#box2{
+	background-image: url(../media/fondo2.jpg);
+}
+
+#box3{
+	background-image: url(../media/fondo3.jpg);
+}
+
+.box > h1{
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 4em;
+	font-weight:inherit;
+	color: #F1EFE9;
+}
