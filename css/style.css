@@ -11,10 +11,11 @@ html{
 
 /* INICIO */
 .nav{
-	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(17,17,17,0.17) 83%, rgba(17,17,17,0) 100%);
+	background: linear-gradient(to right, rgba(19,19,19,1) 0%, rgba(28,28,28,1) 9%, rgba(17,17,17,1) 19%, rgba(102,102,102,1) 100%);
 	position: fixed;
 	width: 100%;
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .nav > a{
@@ -22,6 +23,7 @@ html{
 	padding: 10px;
 	display: block;
 	color: rgba(255,255,255,0.7);
+	margin: 5px;
 }
 
 .inicio{
@@ -34,6 +36,7 @@ html{
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
+	padding-top: 150px;
 }
 
 #box1{
